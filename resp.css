@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Yellowtail&display=swap');
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    
+    .nav-list{
+        flex-direction: column;
+        
+    }
+    .nav-list li{
+        padding-left: 210px;
+        padding-bottom: 10px;
+    }
+    .navbar{
+        height: 200px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    }
+    .rightnav{
+        display: none;
+    }
+    
+    .burger{
+        display: block;
+    }
+    .box-main{
+flex-direction: column-reverse;
+
+    }
+
+    .secondHalf img{
+        width:80%;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .l{
+        display: block;
+    }
+    .form{
+        max-width: 62%;
+    }
+    #title{
+        font-size: 10px;
+    }
+    .secRight{
+        flex-direction: column-reverse;
+        height: auto;
+        margin: auto;
+    }
+    .text-small{
+        text-align: center;
+        font-size: 15px;
+    }
+    .text-big{
+        text-align: center;
+        font-size: 30px;
+    }
+    .btn{
+        text-align: center;
+    }
+    .paras{
+        padding: 6px 0px;
+        padding-bottom: 20px;
+    }
+    .thumbnail{
+        padding: 10px ;
+    }
+    .imageFluid{
+        width: 300px;
+        height: 250px;
+    }
+    .text-footer{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+    .logo{
+        display: none;
+    }   
+}
